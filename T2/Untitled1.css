@@ -1,0 +1,109 @@
+project_record{
+    max-width: 100%;
+    margin: 0px 10px 0px 10px;
+}
+
+Main_Title, Header, Workteam, Abstract, Deliverables {
+    display: block;
+}
+
+Main_Title {
+    padding: 2rem;
+    text-align: center;
+    font-size: 50px;
+}
+
+Header {
+    display: block;
+    padding: 2rem 0rem 2rem 0rem;
+    margin: 1rem 0rem 1rem 0rem;
+    border-bottom: black ;
+    border-bottom-width: 2.5px;
+    border-bottom-style: solid;
+    border-top: black ;
+    border-top-width: 2.5px;
+    border-top-style: solid;
+}
+
+list_header {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+header_item {
+    display: block;
+    padding: 1px;
+}
+
+Workteam {
+    padding: 2rem 0rem 2rem 0rem;
+    margin: 1rem 0rem 1rem 0rem;
+    border-bottom: black ;
+    border-bottom-width: 2.5px;
+    border-bottom-style: solid;
+    border-top: black ;
+    border-top-width: 2.5px;
+    border-top-style: solid;
+}
+
+Abstract {
+    margin: 1rem 0rem 1rem 0rem;
+    padding: 2rem 0rem 2rem 0rem;
+    border-bottom: black ;
+    border-bottom-width: 2.5px;
+    border-bottom-style: solid;
+    border-top: black ;
+    border-top-width: 2.5px;
+    border-top-style: solid;
+}
+
+Deliverables {
+    margin: 1rem 0rem 1rem 0rem;
+    padding: 2rem 0rem 2rem 0rem;
+    border-bottom: black ;
+    border-bottom-width: 2.5px;
+    border-bottom-style: solid;
+    border-top: black ;
+    border-top-width: 2.5px;
+    border-top-style: solid;
+}
+
+paragraph {
+    display: block;
+    margin: 10px;
+}
+
+list_names { 
+    display: block;
+    padding: 1rem;
+}
+
+names {
+    display: list-item;
+    padding-left:20px;
+    margin-left:20px;
+}
+
+list_link {
+    display: block;
+    padding: 1rem;
+}
+
+link_item {
+    display: list-item;
+    padding-left:20px;
+    margin-left:20px;
+}
+
+link:link {
+    color: aquamarine;
+}
+
+
+bold {
+    font-weight: bold;
+}
+
+italic {
+    font-style: italic;
+}
