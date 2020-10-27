@@ -11,46 +11,46 @@
         <list_header>
             <header_item>
                 <Subtitle>
-                    <bold> KEY_NAME</bold>
+                    <bold>KEY_NAME:</bold>
                 </Subtitle>
-                <text>PED_MICEI2002_TESES</text>
+                <text>DAW2020_TPC_2</text>
             </header_item>
             
             <header_item>
                 <Subtitle>
-                    <bold> KEY_NAME</bold>
+                    <bold>TITLE:</bold>
                 </Subtitle>
-                <text>PED_MICEI2002_TESES</text>
+                <text>DTD &amp; \& XML</text>
             </header_item>
             
             <header_item>
                 <Subtitle>
-                    <bold> KEY_NAME</bold>
+                    <bold>SUBTITLE:</bold>
                 </Subtitle>
-                <text>PED_MICEI2002_TESES</text>
+                <text>Elaboração de um project record</text>
             </header_item>
             
             <header_item>
                 <Subtitle>
-                    <bold> KEY_NAME</bold>
+                    <bold>BEGIN DATE:</bold>
                 </Subtitle>
-                <text>PED_MICEI2002_TESES</text>
-            </header_item>
-            
-            
-            <header_item>
-                <Subtitle>
-                    <bold> KEY_NAME</bold>
-                </Subtitle>
-                <text>PED_MICEI2002_TESES</text>
+                <text>Outubro 2020</text>
             </header_item>
             
             
             <header_item>
                 <Subtitle>
-                    <bold> KEY_NAME</bold>
+                    <bold>END DATE:</bold>
                 </Subtitle>
-                <text>PED_MICEI2002_TESES</text>
+                <text>Outubro 2020</text>
+            </header_item>
+            
+            
+            <header_item>
+                <Subtitle>
+                    <bold>SUPERVISOR:</bold>
+                </Subtitle>
+                <text><link url="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</link></text>
             </header_item>
             
         </list_header>
@@ -65,18 +65,6 @@
                 <id>a84752</id>
                 <email>a84752@alunos.uminho.pt</email> 
             </names>
-            
-            <names>
-                <name>Diogo Miguel Pinto Rio</name>
-                <id>a84752</id>
-                <email>a84752@alunos.uminho.pt</email> 
-            </names>
-            
-            <names>
-                <name>Diogo Miguel Pinto Rio</name>
-                <id>a84752</id>
-                <email>a84752@alunos.uminho.pt</email> 
-            </names>
         </list_names>
     </Workteam>
     <Abstract>
@@ -84,10 +72,11 @@
             <bold>Abstract:</bold>
         </Title>
         <paragraph>
-            <text>O XML, validado pelo schema, juntamente com o potente processamento via XSLT, permite dispor de facilidades acrescidas no tratamento de informação de uma forma standard e partilhável. Estas são, além de outras evidentes vantagens, as que abrem caminho a uma mais que provável evolução desta tecnologia nos círculos comerciais e de investigação. Outro facto importante, diz respeito à substituição de interfaces EDI por XML em aplicações bussiness oriented.</text>
+            <text>Para a realização do <bold>Project Record</bold> no âmbito do <bold>TPC2</bold> é necessário a elaboração de um <bold>DTD</bold> (<italic>Definition Type Document</italic>)
+                e de um ficheiro <bold>XML</bold> (<italic>Extensible Markup Language</italic>).</text>
         </paragraph>
         <paragraph>
-            <text>O trabalho pretende definir uma estrutura expedita e funcional, passível de ser aplicada a um trabalho descritivo, como por exemplo uma tese. Não é objectivo do trabalho criar uma implementação sistemática de todos os objectos possíveis, mas sim criar algumas utilizações mais comuns para exemplificar a potência destas linguagens. </text>
+            <text>O ficheiro <bold>DTD</bold> consiste num conjunto de regras que estruturam o ficheiro <bold>XML</bold>, o ficheiro <bold>XML</bold> foi gerado automaticamente a partir do ficheiro <bold>DTD.</bold></text>
         </paragraph>
     </Abstract>
     <Deliverables>
@@ -95,9 +84,7 @@
             <bold>Deliverables:</bold>
         </Title>
         <list_link>
-            <link_item><link>wwww.somethingsomething.com</link></link_item>
-            <link_item><link>wwww.somethingsomething.com</link></link_item>
-            <link_item><link>wwww.somethingsomething.com</link></link_item>
+            <link_item><link url="https://github.com/DiogoRio/DAW2020/blob/main/T2/pr.dtd">https://github.com/DiogoRio/DAW2020/blob/main/T2/pr.dtd</link></link_item>
         </list_link>
     </Deliverables>
 </project_record>

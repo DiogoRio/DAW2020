@@ -26,9 +26,13 @@
 
 <!ELEMENT link (#PCDATA)* >
 
+<!ATTLIST link url CDATA #REQUIRED>
+
 <!ELEMENT bold (#PCDATA)* >
 
 <!ELEMENT italic (#PCDATA)* >
+
+<!ELEMENT underlined (#PCDATA)* >
 
 <!ELEMENT Abstract (Title,paragraph*) >
 
@@ -38,7 +42,7 @@
 
 <!ELEMENT Deliverables (Title,list_link) >
 
-<!ELEMENT text ( #PCDATA | link | italic | bold | name | id | email)* >
+<!ELEMENT text ( #PCDATA | link | italic | bold | name | id | email | underlined)* >
 
 <!ELEMENT paragraph (text)+ >
 
