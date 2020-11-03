@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project_record SYSTEM "pr.dtd">
+<?xml-stylesheet type="text/css" href="pr.css"?> 
+<project_record>
+    <Main_Title>
+        <Title>
+            <text><bold>PROJECT RECORD</bold></text>
+        </Title>
+    </Main_Title>
+    <Header>
+        <list_header>
+            <header_item>
+                <Subtitle>
+                    <bold>KEY_NAME:</bold>
+                </Subtitle>
+                <text>DAW2020_TPC_3</text>
+            </header_item>
+            
+            <header_item>
+                <Subtitle>
+                    <bold>TITLE:</bold>
+                </Subtitle>
+                <text>DTD &amp; XSLT</text>
+            </header_item>
+            
+            <header_item>
+                <Subtitle>
+                    <bold>SUBTITLE:</bold>
+                </Subtitle>
+                <text>Elaboração de um DTD e uma stylesheet XSLT que gere um website para um dataset </text>
+            </header_item>
+            
+            <header_item>
+                <Subtitle>
+                    <bold>BEGIN DATE:</bold>
+                </Subtitle>
+                <text>Outubro 2020</text>
+            </header_item>
+            
+            
+            <header_item>
+                <Subtitle>
+                    <bold>END DATE:</bold>
+                </Subtitle>
+                <text>Novembro 2020</text>
+            </header_item>
+            
+            
+            <header_item>
+                <Subtitle>
+                    <bold>SUPERVISOR:</bold>
+                </Subtitle>
+                <text><link url="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</link></text>
+            </header_item>
+            
+        </list_header>
+    </Header>
+    <Workteam>
+        <Title>
+            <text><bold>WorkTeam:</bold></text>
+        </Title>
+        <list_names>
+            <names>
+                <name>Diogo Miguel Pinto Rio</name>
+                <id>a84752</id>
+                <email>a84752@alunos.uminho.pt</email> 
+            </names>
+        </list_names>
+    </Workteam>
+    <Abstract>
+        <Title>
+            <text><bold>Abstract:</bold></text>
+        </Title>
+        <paragraph>
+            <text>Neste TPC foi pedido para fazer um <bold>DTD</bold> e uma stylesheet <bold>XSLT</bold> que gere um website para um dataset de arqueossítios do NW português. </text>
+        </paragraph>
+        <paragraph>
+            <text>O website fica estruturado com uma pagina principal de indice e uma pagina por cada registo. Durante a elaboração tive em conta que existem espaços em branco, os quais não são mostrados ao utilizador</text>
+        </paragraph>
+    </Abstract>
+    <Deliverables>
+        <Title>
+            <text><bold>Deliverables:</bold></text>
+        </Title>
+        <list_link>
+            <link_item><link url="https://github.com/DiogoRio/DAW2020/blob/main/T3/pr.dtd">https://github.com/DiogoRio/DAW2020/blob/main/T3/pr.dtd</link></link_item>
+            <link_item><link url="https://github.com/DiogoRio/DAW2020/blob/main/T3/arq.dtd">https://github.com/DiogoRio/DAW2020/blob/main/T3/arq.dtd</link></link_item>
+            <link_item><link url="https://github.com/DiogoRio/DAW2020/blob/main/T3/arq.xml">https://github.com/DiogoRio/DAW2020/blob/main/T3/arq.xml</link></link_item>
+            <link_item><link url="https://github.com/DiogoRio/DAW2020/blob/main/T3/arq.xsl">https://github.com/DiogoRio/DAW2020/blob/main/T3/arq.xsl</link></link_item>
+            <link_item><link url="https://github.com/DiogoRio/DAW2020/blob/main/T3/site/index.html">https://github.com/DiogoRio/DAW2020/blob/main/T3/site/index.html</link></link_item>
+        </list_link>
+    </Deliverables>
+</project_record>

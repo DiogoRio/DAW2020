@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT Title (text) >
+
+<!ELEMENT Main_Title (Title) >
+
+<!ELEMENT  Header (list_header) >
+
+<!ELEMENT list_header (header_item)* >
+
+<!ELEMENT header_item (Subtitle,text)>
+
+<!ELEMENT Subtitle (bold) >
+
+<!ELEMENT Workteam (Title,list_names) >
+
+<!ELEMENT list_names (names)* >
+
+<!ELEMENT names (name, id, email, link?) >
+
+<!ELEMENT name (#PCDATA)* >
+
+<!ELEMENT id (#PCDATA)* >
+
+<!ELEMENT email (#PCDATA)* >
+
+<!ELEMENT link (#PCDATA)* >
+
+<!ATTLIST link url CDATA #REQUIRED>
+
+<!ELEMENT bold (#PCDATA)* >
+
+<!ELEMENT italic (#PCDATA)* >
+
+<!ELEMENT underlined (#PCDATA)* >
+
+<!ELEMENT Abstract (Title,paragraph*) >
+
+<!ELEMENT list_link (link_item)* >
+
+<!ELEMENT link_item (link) >
+
+<!ELEMENT Deliverables (Title,list_link) >
+
+<!ELEMENT text ( #PCDATA | link | italic | bold | name | id | email | underlined)* >
+
+<!ELEMENT paragraph (text)+ >
+
+<!ELEMENT project_record (Main_Title, Header, Workteam, Abstract, Deliverables) >
+
