@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <meta>
+        <key>TPC4</key>
+        <title>TPC 4</title>
+        <bdate>04/11/2020</bdate>
+        <edate>11/11/2020</edate>
+        <supervisor url="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="a84752">
+            <name>Diogo Miguel Pinto Rio</name>
+            <email>a84752@alunos.uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>O objetivo deste TPC era implementar um servidor em <b>Node.js</b> em que seja associado um link a uma pagina html.</p>
+        <p>Foi alterado a stylesheet elaborada no trabalho anterior para que gere paginas html da forma arq<b>$num</b>, onde cada <b>$num</b> corresponde
+        a uma página com informações sobre o arqueosítio. Estas paginas foram numeradas com a mesma ordem que aparecem no índice e as referências apontam agora para um link
+        em vez de um ficheiro.</p>
+    </abstract>
+    <deliverables>
+        <link url="https://github.com/DiogoRio/DAW2020/blob/main/T4/arq.xml">Dataset Arqueosítios</link>
+        <link url="https://github.com/DiogoRio/DAW2020/blob/main/T4/serv.js">Servidor Nodejs</link>
+        <link url="https://github.com/DiogoRio/DAW2020/blob/main/T4/arq.xls">Ficheiro XSL</link>
+    </deliverables>
+</pr>
