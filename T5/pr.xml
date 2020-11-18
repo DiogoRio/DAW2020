@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <meta>
+        <key>TPC5</key>
+        <title>TPC 5</title>
+        <bdate>11/11/2020</bdate>
+        <edate>18/11/2020</edate>
+        <supervisor url="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="a84752">
+            <name>Diogo Miguel Pinto Rio</name>
+            <email>a84752@alunos.uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>O objetivo deste TPC era implementar um servidor em <b>Node.js</b> de modo a que este sirva páginas dinâmicas. Este servidor, sempre que precisa de informação, faz pedidos
+            a um <b>Json-Server</b> que está em modo <i>watch</i> em um <i>dataset</i> sobre uma escola de música.</p>
+    </abstract>
+    <deliverables>
+        <link url="https://github.com/DiogoRio/DAW2020/blob/main/T5/db.json">Dataset Escola de Música</link>
+        <link url="https://github.com/DiogoRio/DAW2020/blob/main/T5/serv.js">Servidor Nodejs</link>
+    </deliverables>
+</pr>
