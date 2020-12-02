@@ -2,25 +2,24 @@ extends layout
 
 block content
     header.w3-container.w3-light-blue
-      h3.w3-left Register Student
-
-    form.w3-container.w3-pale-blue.form(action="/students", method='POST')
+      h3.w3-left Edit Student
+    form.w3-container.w3-pale-blue.form(method='POST')
       br
       label.w3-text-black Numero:
       br
-      input.w3-input.w3-border.w3-round.w3-light-grey(type='text', name='number', value=student.numero)
+      input.w3-input.w3-border.w3-round.w3-light-grey(type='text', name='numero', id='numero', value=student.numero, disabled="disabled")
       br
       label.w3-text-black Name:
       br
-      input.w3-input.w3-border.w3-round.w3-light-grey(type='text', name='name', value=student.nome)
+      input.w3-input.w3-border.w3-round.w3-light-grey(type='text', name='nome', id='nome', value=student.nome)
       br
       label.w3-text-black Git:
       br
-      input.w3-input.w3-border.w3-round.w3-light-grey(type='text', name='git', value=student.git)
+      input.w3-input.w3-border.w3-round.w3-light-grey(type='text', name='git', id='git', value=student.git)
       br
       br
-      input.w3-btn.w3-blue.w3-round.custombutton(type='submit', value='Update', style="margin-right:10px", onclick='update()')
-      input.w3-btn.w3-blue.w3-round.custombutton(type='reset', value='Reset')
+      input.button.w3-btn.w3-blue.w3-round.custombutton(type='submit', value='Update', style="margin-right:10px", onclick='update()')
+      input.button.w3-btn.w3-blue.w3-round.custombutton(type='reset', value='Reset')
       br
       br
 

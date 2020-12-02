@@ -22,5 +22,13 @@ module.exports.insert = student => {
 }
 
 module.exports.update = (id,student) => {
+    console.log(student)
+    console.log(id)
     return Student.updateOne({_id:id}, student)
+}
+
+module.exports.delete = id => {
+    return Student 
+        .deleteOne({numero: id})
+        .exec()
 }

@@ -23,6 +23,7 @@ router.get("/students/edit/:id", function (req, res) {
 });
 
 
+
 router.get('/students/register', function (req, res) {
   res.render('register');
 });
@@ -35,14 +36,14 @@ router.get('/students/:id', function(req, res) {
   ;
 });
 
-router.post("/students", function (req, res) {
-  Student.insert({numero: req.body.number, nome: req.body.name, git: req.body.git})
+router.put("/students/:id", function (req, res) {
+  Student.update(req.params.id,{numero: req.body.number, nome: req.body.name, git: req.body.git})
     .then(res.redirect('/students/' + req.body.number))
     .catch(error => res.render("error", {error: error}))
 });
 
-router.put("/students/:id", function (req, res) {
-  Student.update(req.params.id,{numero: req.body.number, nome: req.body.name, git: req.body.git})
+router.post("/students", function (req, res) {
+  Student.insert({numero: req.body.number, nome: req.body.name, git: req.body.git})
     .then(res.redirect('/students/' + req.body.number))
     .catch(error => res.render("error", {error: error}))
 });

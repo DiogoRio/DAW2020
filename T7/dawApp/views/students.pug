@@ -18,8 +18,8 @@ block content
                 td= s.nome
                 td= s.git    
                 td
-                  button.w3-btn.w3-blue.w3-round.w3-tiny.custombutton(type='edit', value='Edit', style="margin-right:10px") Edit
-                  button.w3-btn.w3-blue.w3-round.w3-tiny.custombutton(type='delete', value='Delete') Delete
+                  a(href='./' + s.numero).button.w3-btn.w3-blue.w3-round.w3-tiny.custombutton(type='edit', value='Edit', style="margin-right:10px") Edit
+                  button.w3-btn.w3-blue.w3-round.w3-tiny.custombutton(type='delete', value='Delete', onclick='deleteStudent(\'' + s.numero + '\')') Delete
       else
         .w3-container
           p There are no students...
