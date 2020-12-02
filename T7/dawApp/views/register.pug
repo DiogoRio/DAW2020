@@ -1,0 +1,27 @@
+extends layout
+
+block content
+    header.w3-container.w3-light-blue
+      h3.w3-left Register Student
+
+    form.w3-container.w3-pale-blue.form(action="/students", method='POST')
+      br
+      label.w3-text-black Number:
+      br
+      input.w3-input.w3-border.w3-round.w3-light-grey(type='text', name='number', value='')
+      br
+      label.w3-text-black Name:
+      br
+      input.w3-input.w3-border.w3-round.w3-light-grey(type='text', name='name', value='')
+      br
+      label.w3-text-black Git:
+      br
+      input.w3-input.w3-border.w3-round.w3-light-grey(type='text', name='git', value='')
+      br
+      input.w3-btn.w3-blue.w3-round.custombutton(type='submit', value='Submit', style="margin-right:10px")
+      input.w3-btn.w3-blue.w3-round.custombutton(type='reset', value='Reset')
+      br
+      br
+
+    footer.w3-container.w3-light-blue
+        label Gerado por dawApp :: 2020-Nov, rio
