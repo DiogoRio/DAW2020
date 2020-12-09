@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <meta>
+        <key>TPC8</key>
+        <title>TPC 8</title>
+        <bdate>02/12/2020</bdate>
+        <edate>09/12/2020</edate>
+        <supervisor url="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="a84752">
+            <name>Diogo Miguel Pinto Rio</name>
+            <email>a84752@alunos.uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>O objetivo deste TPC era implementar um servidor em <b>Node.js</b> de gestão de ficheiros inicializado na aula prática da semana.</p>
+        <p>Além disso este servidor permite agora o envio de mais do que um ficheiro ao mesmo tempo.</p>
+    </abstract>
+    <deliverables>
+        <link url="https://github.com/DiogoRio/DAW2020/blob/main/T8/index.js">Entry-point do Servidor</link>
+    </deliverables>
+</pr>
